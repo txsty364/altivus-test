@@ -6,6 +6,16 @@ Run it, sign in with your Nori account (email + password), pick your simulator, 
 Windows may say "Windows protected your PC" because the installer isn't code-signed yet:
 click **More info → Run anyway**.
 
+**Updates are automatic from 0.2.3 on.** ACARS checks for new versions itself and installs them when it
+starts, or when you close it. It never restarts during a flight or a test recording. If you're on 0.2.2 or
+older, download and run the installer above once more. Your settings and recordings stay.
+
+**Next test recordings (0.2.3):**
+- **Fenix A319:** load it cold & dark and open the test recording. It picks **"Fenix A319: finish the first
+  recording"**: about 20 steps on the ground (batteries, APU, fuel pumps, ADIRS, a few lights). No flying needed.
+- **FlyByWire A32NX** and **iniBuilds A350:** the **full lap** (picked automatically).
+- Do the action, wait about two seconds, **then** press Done (Ctrl+Alt+N).
+
 This repository only hosts the installer. Questions: ask on the Nori Discord.
 
 ---
