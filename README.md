@@ -1,6 +1,6 @@
 # Nori ACARS — download
 
-**[Download NoriACARS-Setup.exe (latest)](https://github.com/txsty364/nori-acars-download/releases/latest/download/NoriACARS-Setup.exe)**
+**[Download NoriACARS-Setup.exe (latest)](https://github.com/txsty364/altivus-test/releases/latest/download/NoriACARS-Setup.exe)**
 
 Run it, sign in with your Nori account (email + password), pick your simulator, and it installs.
 Windows may say "Windows protected your PC" because the installer isn't code-signed yet:
