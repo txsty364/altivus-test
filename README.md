@@ -18,9 +18,10 @@ first test flight.
 
 ## 1. Set up (once)
 
-1. **SimConnect.dll is usually found automatically.** Nori ACARS uses the copy that other MSFS tools already
-   installed (MobiFlight Connector, Little Navmap, FSUIPC7, Volanta, Navigraph…). The recording window shows
-   "SimConnect ✓" when it's found. Only if it says *not found*, get it from the free MSFS SDK:
+1. **SimConnect.dll.** Newer Nori ACARS builds include it. Otherwise ACARS looks for the MSFS SDK's copy (and
+   for a 64-bit MSFS copy left by other tools; MobiFlight Connector's is the old 32-bit FSX one and doesn't
+   count). The recording window shows "SimConnect ✓" when it's found. If it says *not found*, install the free
+   MSFS SDK:
    - In MSFS: *Options › General Options › Developers* → turn on **Developer Mode**.
    - In the developer menu bar that appears: *Help › SDK Installer* → download and run the SDK installer
      (the "Core" part is enough).
